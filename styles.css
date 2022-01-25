@@ -1,0 +1,73 @@
+::-moz-selection {
+  color: #9477DD;
+  background-color: transparent;
+}
+
+::selection {
+  color: #9477DD;
+  background-color: transparent;
+}
+
+div#content div {
+   display: inline-block;
+   width: 48%;
+}
+
+div#content div h1, p {
+   margin: 35px;
+}
+
+div#content div.leftbox {
+   vertical-align: top;
+}
+
+div#content div.rightbox {
+}
+
+nav.menu-nav ul li.btn {
+   display: inline-block;
+   list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a {
+   color: white;
+   text-decoration: none;
+   padding: 10px;
+}
+
+nav.menu-nav ul li.btn:hover a {
+   color: black;
+   transition: 2,5s;
+   border-radius: 12px;
+   text-decoration: none;
+}
+
+h1 {
+   color: red;
+}
+
+p {
+   color: #73F391;
+}
+
+body {
+   background: url("https://news.gandi.net/wp-content/uploads/2018/11/domain_dev_23222b-1024x512.jpg")no-repeat;
+   background-size: 100%;
+}
+
+p {
+   font-size: 30px;
+}
+
+img {
+   border-radius: 50%;
+}
+
+.footertxt {
+   color: #3D95DC;
+   text-align: center;
+}
+
+.footertxt:hover {
+   background: rgba(44, 203, 121, 0.5);
+}
